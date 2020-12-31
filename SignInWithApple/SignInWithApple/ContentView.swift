@@ -9,8 +9,13 @@ import SwiftUI
 
 struct ContentView: View {
     var body: some View {
-        Text("Hello, world!")
-            .padding()
+        SignInWithApple()
+            .frame(width: 280, height: 60)
+            .onTapGesture(perform: showAppleLogin)
+    }
+    
+    func showAppleLogin(){
+        
     }
 }
 

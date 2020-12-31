@@ -13,6 +13,7 @@
 		8F165CA6259D2E10003C52C5 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8F165CA5259D2E10003C52C5 /* Preview Assets.xcassets */; };
 		8F165CB1259D2E11003C52C5 /* SignInWithAppleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F165CB0259D2E11003C52C5 /* SignInWithAppleTests.swift */; };
 		8F165CBC259D2E11003C52C5 /* SignInWithAppleUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F165CBB259D2E11003C52C5 /* SignInWithAppleUITests.swift */; };
+		8F165CCE259D356E003C52C5 /* SignInWithApple.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F165CCD259D356E003C52C5 /* SignInWithApple.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,6 +46,7 @@
 		8F165CB7259D2E11003C52C5 /* SignInWithAppleUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SignInWithAppleUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		8F165CBB259D2E11003C52C5 /* SignInWithAppleUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInWithAppleUITests.swift; sourceTree = "<group>"; };
 		8F165CBD259D2E11003C52C5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8F165CCD259D356E003C52C5 /* SignInWithApple.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignInWithApple.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -95,6 +97,7 @@
 		8F165C9D259D2E0D003C52C5 /* SignInWithApple */ = {
 			isa = PBXGroup;
 			children = (
+				8F165CCC259D355F003C52C5 /* SignIn */,
 				8F165C9E259D2E0D003C52C5 /* SignInWithAppleApp.swift */,
 				8F165CA0259D2E0D003C52C5 /* ContentView.swift */,
 				8F165CA2259D2E10003C52C5 /* Assets.xcassets */,
@@ -128,6 +131,14 @@
 				8F165CBD259D2E11003C52C5 /* Info.plist */,
 			);
 			path = SignInWithAppleUITests;
+			sourceTree = "<group>";
+		};
+		8F165CCC259D355F003C52C5 /* SignIn */ = {
+			isa = PBXGroup;
+			children = (
+				8F165CCD259D356E003C52C5 /* SignInWithApple.swift */,
+			);
+			path = SignIn;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -260,6 +271,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				8F165CA1259D2E0D003C52C5 /* ContentView.swift in Sources */,
+				8F165CCE259D356E003C52C5 /* SignInWithApple.swift in Sources */,
 				8F165C9F259D2E0D003C52C5 /* SignInWithAppleApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
